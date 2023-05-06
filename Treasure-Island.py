@@ -26,7 +26,7 @@ print("Your mission is to find the treasure.")
 #Ask for user's input
 step_one = input('You\'re at a cross road. Where do you want? Type "Left" or "Right"\n').lower()
 step_two = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across\n').lower()
-step_step_three = input('You arrive at the island unharmed. There is a house with 3 doors. Red, Yellow and Blue. Which colour do you choose?\n').lower()
+step_three = input('You arrive at the island unharmed. There is a house with 3 doors. Red, Yellow and Blue. Which colour do you choose?\n').lower()
 
 #Nested if statements for possible outcome from user's input
 if step_one == "left":
